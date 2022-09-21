@@ -1,0 +1,18 @@
+a=int(input('Введіть довжину бруска: а='))
+b=int(input('Введіть ширину бруска: b='))
+c=int(input('Введіть висоту бруска: c='))
+m = int(input("Довжина отвору : "))
+n = int(input("Ширина отвору : "))
+ 
+if ((a<m and a<n and b<n and b<m) or
+(a<m and a<n and c<m and c<n) or
+(c<n and c<m and b<n and b<m) or
+(a<m and a<=n and b<n and b<=m ) or
+(a<=m and a<n and b<=n and b<m) or
+(a<=m and a<n and c<=n and c<m) or
+(a<m and a<=n and c<n and c<=m) or
+(c<m and c<=n and b<n and b<=m) or
+(c<=m and c<n and b<=n and b<m)):
+        print("Брусок увійде")
+else:
+        print("Брусок не увійде")
