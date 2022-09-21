@@ -7,5 +7,5 @@ def func1(x1,y1,z1):
 x=float(input("Введіть х "))
 y=float(input("Введіть y "))
 z=float(input("Введіть z "))
-f=func1(x,y,z)
-print(f)
+y=func1(x,y,z)
+print(y)
