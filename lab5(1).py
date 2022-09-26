@@ -10,12 +10,12 @@ def fun3 (x):
     bar3=4.27*x+4.33*pow(x,2)+math.sin(x+1)
     return (bar3)
 
-if x>12.1:   
-    print(fun1(x))
+if x1>12.1:   
+    print(fun1(x1))
 
-elif x>=-5.7 and x<=12.1:
-   print(fun2(x))
-elif x<5.7:
-    print(fun3(x))
+elif x1>=-5.7 and x<=12.1:
+   print(fun2(x1))
+elif x1<5.7:
+    print(fun3(x1))
 else:
     print("неправильно")
