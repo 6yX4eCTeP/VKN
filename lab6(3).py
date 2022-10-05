@@ -1,7 +1,7 @@
 import math
-a = int(input("a="))
-b = int(input("b="))
-h = int(input("h="))
+a = float(input('Задайте a'))
+b = float(input('Задайте b'))
+h = float(input('Задайте h'))
 x = a
 spisok = []
 while x<b:
